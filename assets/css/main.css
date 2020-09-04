@@ -1733,5 +1733,8 @@ input, select, textarea {
 			transition: background 450ms ease-in;
 			-webkit-appearance: none;
 		} */
-		
+		.myRange{
+			border-radius: 8px;
+			border: solid 1px #82CFD0;
+		}
 		
