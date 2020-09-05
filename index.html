@@ -66,39 +66,60 @@
 							<h2 class="major">Programming</h2>
 		
 							<p>Java (Core)</p>
-							<!-- <div class="chrome"> -->
-								<input id="myinput" type="range" min="1" max="100" value="80"  >
-							<!-- </div> -->
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="90" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
+							</div>
 							<hr size="2" width="90%" color="white">
 							<p>C++</p>
-							<div class="chrome1">
-								<input id="myinput1" type="range" min="1" max="100" value="70"   >
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="80" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
 							</div>
 							<hr size="2" width="90%" color="white">
 							<p>C</p>
-							<div class="chrome2">
-								<input id="myinput2" type="range" min="1" max="100" value="60"  >
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="70" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
 							</div>
 							<hr size="2" width="90%" color="white">
 							<p>Python</p>
-							<div class="chrome3">
-								<input id="myinput3" type="range" min="1" max="100" value="60"  >
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="60" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
 							</div>
 							<hr size="2" width="90%" color="white">
 							<p>JavaScript</p>
-							<div class="chrome4">
-								<input id="myinput4" type="range" min="1" max="100" value="56"  >
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="56" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+					
 							</div>
 							<hr size="2" width="90%" color="white">
 							<p>HTML & CSS</p>
-							<div class="chrome5">
-								<input id="myinput5" type="range" min="1" max="100" value="50"  >
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="47" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
 							</div>
 							<hr size="2" width="90%" color="white">
 							<p>PHP</p>
-							<div class="chrome6">
-								<input id="myinput6" type="range" min="1" max="100" value="25"  >
-							  </div>
+							<div>
+
+								<!-- <span id="rangeValue">0</span> -->
+								<input class="range" type="range" name="" value="25" min="0" max="100" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" disabled >
+						
+							</div>
 						 </article>
 
 						<!-- Skills -->
@@ -521,7 +542,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 					</div>
 					<body>
-					<script>
+					<script type="text/javascript">
 						document.getElementById("myinput").oninput = function() {
 						  this.style.background = 'linear-gradient(to right, #82CFD0 0%, #82CFD0 ' + this.value + '%, #fff ' + this.value + '%, white 100%)'
 						};
